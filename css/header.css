@@ -1,0 +1,283 @@
+header {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (min-width:768px) and (max-width:999px) {
+    header {
+        
+        justify-content: space-between;
+        align-items: center;
+
+        
+    }
+    
+}
+
+@media screen and (max-width:767px) {
+    header {
+        width: 200px;
+        height: 250px;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 0;
+        
+    }
+}
+
+.imageNumbers {
+    width:300px;
+    display: flex;
+    justify-content: flex-start;
+   
+}
+
+@media screen and (min-width:768px) and (max-width:999px) {
+    .imageNumbers {
+        width: 210px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .imageNumbers {
+        flex-direction: column;
+        justify-content: space-between;
+       width: 150px;
+    }
+}
+
+.imagePhone { 
+    background-image: url('../img/phone.png');
+    width: 30px;
+    height: 30px;
+    background-size: contain;
+}
+
+@media screen and (min-width:768px) and (max-width:999px) {
+    .imagePhone {
+        background-repeat: no-repeat;
+    }   
+}
+
+@media screen and (max-width:767px) {
+    .imagePhone {
+        display: none;
+    }
+}
+
+.innerNumber1 {
+    text-align: center;
+    width: 130px;
+    font-family: sans-serif;
+    font-size: 17px;
+    padding-top: 5px;
+    color:gray;
+    font-weight: 700;
+}
+
+
+.innerNumber2 {
+    text-align: center;
+    width: 130px;
+    font-family: sans-serif;
+    font-size: 17px;
+    padding-top: 5px;
+    color:gray;
+    font-weight: 700;
+}
+
+@media screen and (min-width:768px) and (max-width:999px) {
+    .innerNumber1 
+    {
+        font-size: 13px;
+        padding-right: 5px;
+    }
+    .innerNumber2 
+    {
+        font-size: 13px;
+    }
+    
+}
+
+@media screen and (max-width:767px) {
+   .innerNumber1 
+    {
+        font-size: 14px;
+    }
+    .innerNumber2 
+    {
+        font-size: 14px;
+    }
+}
+
+.littleForm {
+    width: 570px;
+    display: flex;
+    justify-content: space-around;
+    height: 33px;
+   background: rgba(3,34,64,1);
+background: -moz-linear-gradient(top, rgba(3, 34, 64, 1) 0%, rgba(14, 64, 110, 1) 3%, rgba(3, 35, 64, 1) 38%, rgba(3, 35, 64, 1) 71%, rgba(3, 34, 64, 1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(3, 34, 64, 1)), color-stop(3%, rgba(14, 64, 110, 1)), color-stop(38%, rgba(3, 35, 64, 1)), color-stop(71%, rgba(3, 35, 64, 1)), color-stop(100%, rgba(3, 34, 64, 1)));
+background: -webkit-linear-gradient(top, rgba(3, 34, 64, 1) 0%, rgba(14, 64, 110, 1) 3%, rgba(3, 35, 64, 1) 38%, rgba(3, 35, 64, 1) 71%, rgba(3, 34, 64, 1) 100%);
+background: -o-linear-gradient(top, rgba(3, 34, 64, 1) 0%, rgba(14, 64, 110, 1) 3%, rgba(3, 35, 64, 1) 38%, rgba(3, 35, 64, 1) 71%, rgba(3, 34, 64, 1) 100%);
+background: -ms-linear-gradient(top, rgba(3, 34, 64, 1) 0%, rgba(14, 64, 110, 1) 3%, rgba(3, 35, 64, 1) 38%, rgba(3, 35, 64, 1) 71%, rgba(3, 34, 64, 1) 100%);
+background: linear-gradient(to bottom, rgba(3, 34, 64, 1) 0%, rgba(14, 64, 110, 1) 3%, rgba(3, 35, 64, 1) 38%, rgba(3, 35, 64, 1) 71%, rgba(3, 34, 64, 1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#032240', endColorstr='#032240', GradientType=0);
+    
+    box-shadow: 
+        -webkit-box-shadow: 4px 4px 0px 0px rgba(0,0,0,0.22);
+        -moz-box-shadow: 4px 4px 0px 0px rgba(0,0,0,0.22);
+    box-shadow: 4px 4px 0px 0px rgba(0,0,0,0.22);
+    
+    border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+
+}
+
+@media screen and (max-width:767px) {
+    .littleForm {
+        width: 200px;
+        height: 160px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+}
+
+.userImg {
+    width:30px;
+    background-image: url('../img/user_pic.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.inputElem {
+    width:250px;
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+@media screen and (max-width:767px) {
+    .inputElem {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    .inputElem1:first-child {
+        margin-bottom: 15px;
+    }
+}
+
+.inputElem input {
+    width: 100px;
+    height: 20px;
+    border-radius: 5px 5px 5px 5px;
+    outline: none;
+    
+}
+
+@media screen and (max-width:767px) {
+    .inputElem input {
+        width: 150px;
+        height: 30px;
+    }
+}
+
+.links {
+    width: 150px;
+    padding-top: 7px;
+}
+
+@media screen and (max-width:767px) {
+    .links {
+        height: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        
+    }
+}
+.links a {
+    color: aliceblue;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+
+.links a:hover {
+    color:dimgrey;
+}
+
+.forgotPass {
+    width: 100px;
+    padding-top: 7px;
+}
+
+.forgotPass a {
+    color: dimgrey;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.forgotPass a:hover {
+    color: aliceblue;
+}
+
+.headerReferense {
+    
+   display: flex;
+    justify-content: space-between;
+    align-self: center;
+    border:2px solid gray;
+    border-radius: 10px 10px 10px 10px;
+    -webkit-box-shadow: 108px 115px 86px -116px rgba(0,0,0,0.75);
+    -moz-box-shadow: 108px 115px 86px -116px rgba(0,0,0,0.75);
+    box-shadow: 108px 115px 86px -116px rgba(0,0,0,0.75);
+
+}
+
+.referenseImg {
+    width: 30px;
+    font-size: 25px;
+    text-align: center
+}
+
+
+.referenseImg:hover {
+    background-color: skyblue; 
+}
+
+
+.largeImg {
+    width: 1075px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-image: url('../img/largeImg.PNG');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media screen and (min-width:768px) and (max-width:999px)
+{
+    .largeImg {
+        width: 890px;
+    }
+}
+
+@media screen and (max-width:767px)
+{
+    .largeImg {
+        display: none;
+    }
+}
+
+

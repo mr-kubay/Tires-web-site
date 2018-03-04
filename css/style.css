@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    transition: all 0.3s;
+}
+@media screen and (max-width:767px) 
+{
+    body {
+        background-color: lightgrey;
+    }
+}
+.fa {
+    color: gray;
+}
+
+.referenseImg>.fa:hover {
+    color: aliceblue;
+}
+
+.fa-shopping-cart {
+    color: #2D5676;
+}
+
+.fa-shopping-cart:hover {
+    color: aliceblue;
+}
+
+.fa-file-text {
+    color: #1C6381;
+}
+
+.fa-circle-o {
+    color :#00004d;
+}
